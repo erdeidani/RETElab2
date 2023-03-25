@@ -70,3 +70,6 @@ The figure below illustrates this behavior using an example.
 1.git clone repo
 
 2.new commit 
+
+2.still new but not really
+
