@@ -12,4 +12,6 @@ public interface TrainController {
 
 	void setEmergencyBreak(boolean emergency);
 
+	boolean getEmergencyBreak();
+
 }

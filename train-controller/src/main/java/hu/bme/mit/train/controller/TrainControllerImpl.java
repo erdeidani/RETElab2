@@ -42,8 +42,10 @@ public class TrainControllerImpl implements TrainController {
 	public void setEmergencyBreak(boolean emergency) {
 		this.isEmergencyBreak = emergency;
 		enforceSpeedLimit();
-
 	}
+
+	@Override
+	public boolean getEmergencyBreak(){return isEmergencyBreak; }
 
 
 
