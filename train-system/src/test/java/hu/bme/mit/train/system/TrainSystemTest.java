@@ -56,4 +56,11 @@ public class TrainSystemTest {
 		controller.followSpeed();
 		Assert.assertEquals(0, controller.getReferenceSpeed());
 	}
+
+	@Test
+	public void Tachograph(){
+		controller.followSpeed();
+		System.out.println(sensor.getTachograph().isEmpty());
+	}
+
 }

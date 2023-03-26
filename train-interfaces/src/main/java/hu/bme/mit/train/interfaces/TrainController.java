@@ -14,4 +14,7 @@ public interface TrainController {
 
 	boolean getEmergencyBreak();
 
+	int getPosition();
+
+	void setSensor(TrainSensor s);
 }
